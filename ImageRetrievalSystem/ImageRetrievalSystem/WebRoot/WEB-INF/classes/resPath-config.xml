@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resPath-config>
+	<config-info>
+		<projectName>ImageRetrievalSystem</projectName>
+		<imgData>imgData</imgData>
+		<indexPath>indexPath</indexPath>
+		<uploadSrcPath>uploadSrcPath</uploadSrcPath>
+		<uploadCropPath>uploadCropPath</uploadCropPath>
+		<uploadSegPath>uploadSegPath</uploadSegPath>
+		<tempImgPath>tempImgPath</tempImgPath>
+	</config-info>
+</resPath-config>

@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;    /*外侧边框*/
+	padding:0px;   /*内侧边框*/
+	font-family: Arial,"微软雅黑","黑体";
+}
+
+/*页首开始*/
+header{
+    background-color:#359c7e;
+	width:960px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin: 0 auto;
+}
+#uestclogo{
+	margin-top:6px;
+}
+#sys-logo{
+	margin-top:6px;
+	margin-left:60px;
+}
+#headernav{
+	float: right;
+	margin-top: 24px;
+	text-decoration: none;
+}
+#headernav a{
+	list-style-type:none;	
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: lighter;
+	font-size: 14px;
+}
+#headernav li{
+	display:inline;
+	padding-left: 24px;
+}
+.line{
+	height: 2px;
+	background-color: #359c7e;
+}
+#line1{
+float:right;
+   margin-top:12.5px;
+   width:880px;
+}
+
+/*内容开始*/
+#con{
+	width: 960px;
+	padding-top: 36px;
+	padding-bottom: 24px;
+	margin: 0 auto;
+}
+#dermimg1{
+width:96px;
+height:96px;
+float:right;
+}
+#dermimg2{
+margin-right:30px;
+width:96px;
+height:96px;
+float:right;
+}
+#directory-div{
+padding-top: 24px;
+width:140px;
+height:120px;
+}
+#directory{
+padding-top: 6px;
+width:48px;
+height:100px;
+background-color:#359c7e;
+}
+#direct-nav{
+float:right;
+border-bottom:2px solid #359c7e;
+border-bottom-width:2px;
+border-bottom-style:solid;
+border-bottom-color:#359c7e;
+border-right:2px solid #359c7e;
+border-right-width:2px;
+border-right-style:solid;
+border-right-color:#359c7e;
+border-top:2px solid #359c7e;
+border-top-width:2px;
+border-top-style:solid;
+border-top-color:#359c7e;
+
+padding-top: 18px;
+width:90px;
+height:84px;
+background-color:#ffffff;
+}
+
+#direct-con{
+    color:#ffffff;
+	font-weight: strong;
+	font-size: 20px;
+}
+
+#list{
+padding-top: 6px;
+width:960px;
+height:25px;
+background-color:#ffffff;
+}
+#list-block{
+ float=left;
+ width:80px;
+ height:25px;
+ background-color:#359c7e;
+}
+
+#item-con{
+padding-top: 6px;
+    color:#ffffff;
+	font-weight: strong;
+	font-size: 14px;
+}
+#list-con{
+	margin-left:8px;
+    color:#359c7e;
+	font-weight: lighter;
+	font-size: 14px;
+}
+#title{
+    width: 200px;
+    color:#359c7e;
+	font-weight: strong;
+	font-size: 20px;
+}
+#pra1{
+    width: 640px;
+    margin-top: 12px;
+    color:#000000;
+	font-weight: lighter;
+	font-size: 14px;
+}
+#pra2{
+    width: 700px;
+    margin-top: 12px;
+	margin-left: 60px;
+    color:#000;
+	font-weight: lighter;
+	font-size: 14px;
+}
+#image{
+    width: 700px;
+	height:120px;
+    margin-top: 12px;
+	margin-left: 60px;
+}
+#upimgsec{
+	width: 960px;
+	margin: 0 auto;
+}
+#titleimg{
+	margin-left: 80px;
+}
+#upfile{
+	display: none;
+}
+#imgchoose{
+	width: 240px;
+	height: 60px;
+	margin-left:360px;
+	margin-top: 24px;
+	border-radius: 60px;
+	border: none;
+	background-color: #359c7e;
+	color: #fff;
+	font-size: 1.2em;
+	cursor: pointer;
+	-webkit-transition-property:background-color,color;
+	-webkit-transition-duration:0.4s;
+	-webkit-transition-timing-function:ease-out;
+	-moz-transition-property:background-color,color;
+	-moz-transition-duration:0.4s;
+	-moz-transition-timing-function:ease-out;
+}
+#imgchoose:hover{
+	background-color: #51c4a2;
+}
+#imgslisec{
+	margin:0 auto;
+}
+#slider{
+	margin-top: 30px;
+}
+
+/*页尾开始*/
+footer{
+	margin-top: 30px;
+	padding-bottom: 24px;
+	background-color: #359c7e;
+	color: #fff;
+}
+footer h4{
+	padding-top: 12px;
+	text-align: center;
+}
+footer ul{
+	width: 270px;
+	margin:6px auto;
+	margin-bottom: 18px;
+}
+footer li{
+	display: inline;
+	margin-left: 12px;
+}
+footer a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: lighter;
+}
+footer a:hover{
+	color:#f8d467;
+}
+footer small{
+	text-align: center;
+	font-size: 12px;
+	color: #ccc;
+	-webkit-transition-property:background-color,color;
+	-webkit-transition-duration:1s;
+	-webkit-transition-timing-function:ease-out;
+	-moz-transition-property:background-color,color;
+	-moz-transition-duration:1s;
+	-moz-transition-timing-function:ease-out;
+}
+footer small:hover{
+	color:#fff;
+}

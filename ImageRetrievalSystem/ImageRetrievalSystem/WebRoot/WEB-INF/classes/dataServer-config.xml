@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server-config>
+	<config-info>
+		<server-url>http://127.0.0.1:27017</server-url>
+		<Authorization>Bearer 98e7e3a59cd997e78c996ef569e0434a</Authorization>
+		<format>?_format=json</format>
+	</config-info>
+</server-config>

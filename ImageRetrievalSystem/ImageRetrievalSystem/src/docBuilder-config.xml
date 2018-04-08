@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<builder-info>
+		<builder-name>net.semanticmetadata.lire.imageanalysis.FCTH</builder-name>
+		<weight>0.8</weight>
+	</builder-info>
+	
+  	<builder-info>
+		<builder-name>net.semanticmetadata.lire.imageanalysis.AutoColorCorrelogram</builder-name>
+		<weight>0.6</weight>
+	</builder-info>
+	
+	<builder-info>
+		<builder-name>net.semanticmetadata.lire.imageanalysis.CEDD</builder-name>
+		<weight>0.8</weight>
+	</builder-info>
+	
+	<builder-info>
+		<builder-name>net.semanticmetadata.lire.imageanalysis.JpegCoefficientHistogram</builder-name>
+		<weight>0.9</weight>
+	</builder-info>
+  
+	<builder-info>
+		<builder-name>net.semanticmetadata.lire.imageanalysis.ScalableColor</builder-name>
+		<weight>1.0</weight>
+	</builder-info>
+
+	<builder-info>
+		<builder-name>net.semanticmetadata.lire.imageanalysis.ColorLayout</builder-name>
+		<weight>1.0</weight>
+	</builder-info>
+</config>

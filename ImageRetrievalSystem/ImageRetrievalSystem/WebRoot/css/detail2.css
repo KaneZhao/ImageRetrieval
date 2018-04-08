@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;    /*外侧边框*/
+	padding:0px;   /*内侧边框*/
+	font-family: Verdana,'微软雅黑','Microsoft YaHei',Helvetica,Arial;
+}
+
+/*页首开始*/
+header{
+	width: 960px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin: 0 auto;
+}
+#uestclogo{
+	margin-top:6px;
+}
+#headernav{
+	float: right;
+	margin-top: 24px;
+	text-decoration: none;
+}
+#headernav a{
+	list-style-type:none;	
+	text-decoration: none;
+	color:#888;
+	font-weight: lighter;
+	font-size: 14px;
+}
+#headernav li{
+	display:inline;
+	padding-left: 24px;
+}
+.line{
+	height: 1px;
+	margin-top: 12px;
+	background-color: #eee;
+}
+
+/*内容开始*/
+#con{
+	width: 960px;
+	padding-top: 36px;
+	padding-bottom: 24px;
+	margin: 0 auto;
+}
+#dermimg1{
+	width:120px;
+	height:120px;
+	float:right;
+	margin-left: 20px;
+}
+#con dd{
+	width: 720px;
+	margin-top: 18px;
+	text-indent:2em;
+	color: #333;
+}
+#con dt{
+	font-size: 36px;
+	color: #359c7e;
+}
+#catalog{
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+#catalog a{
+	cursor: pointer;
+	font-size: 14px;
+	text-decoration: none;
+	color: #666;
+}
+#catalog td{
+	width: 180px;
+	height: 30px;
+	padding-left: 24px; 
+	background-color: #eee;
+}
+section{
+	margin-top:36px;
+	line-height: 1.5em;
+}
+section>a{
+	color: #333;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #359c7e;
+}
+section p{
+	margin-top: 12px;
+	margin-bottom: 24px;
+	padding-left:4.8em;
+	padding-right:4.8em;
+	text-indent:2em;
+	font-weight: lighter;
+	color: #333;
+}
+#photos{
+	margin-top: 24px;
+	margin-bottom: 24px;
+	padding-left:24px;
+	padding-right:24px;
+}
+.dermimg2{
+	margin-right:50px;
+	margin-bottom: 12px;
+	width:120px;
+	height:120px;
+}
+
+/*页尾开始*/
+footer{
+	max-width:1500px;
+ 	width:expression_r(document.body.clientWidth > 1500? "1500px": "auto" );
+ 	margin: 0 auto;
+	margin-top: 36px;
+	padding-bottom: 24px;
+	background-color: #359c7e;
+	color: #fff;
+}
+footer h4{
+	padding-top: 12px;
+	text-align: center;
+}
+footer ul{
+	width: 270px;
+	margin:6px auto;
+	margin-bottom: 18px;
+}
+footer li{
+	display: inline;
+	margin-left: 12px;
+}
+footer a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: lighter;
+}
+footer a:hover{
+	color:#f8d467;
+}
+footer #small{
+	text-align: center;
+	font-size: 12px;
+	color: #ccc;
+	-webkit-transition-property:background-color,color;
+	-webkit-transition-duration:1s;
+	-webkit-transition-timing-function:ease-out;
+	-moz-transition-property:background-color,color;
+	-moz-transition-duration:1s;
+	-moz-transition-timing-function:ease-out;
+}
+footer #small:hover{
+	color:#fff;
+}
+
+/*回到页顶*/
+#float_catalog{
+	bottom:90px;
+	right:80px;
+	position:fixed;
+	display: none;
+}
+#float_catalog a{
+	cursor: pointer;
+	font-size: 14px;
+	text-decoration: none;
+	color: #666;
+}
+#float_catalog a:hover{
+	color: #359c7e;
+}
+#float_catalog li{
+	list-style-type: none;
+	margin-top: 6px;
+}
+#form_top{
+	bottom:24px;
+	right:96px;
+	position:fixed;
+	border-radius: 10px;
+	border: 1px #ccc solid;
+	display: none;
+	background-image: url("../images/top.png");  
+    width: 40px;  
+    height:40px;  
+    cursor: pointer;  
+}  

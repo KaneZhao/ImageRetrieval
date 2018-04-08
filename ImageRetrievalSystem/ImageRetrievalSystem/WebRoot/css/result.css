@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;    /*外侧边框*/
+	padding:0px;   /*内侧边框*/
+	font-family: Verdana,'微软雅黑','Microsoft YaHei',Helvetica,Arial;
+}
+
+/*页首开始*/
+header{
+	width: 960px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin: 0 auto;
+}
+#uestclogo{
+	margin-top:6px;
+}
+#headernav{
+	float: right;
+	margin-top: 24px;
+	text-decoration: none;
+}
+#headernav a{
+	list-style-type:none;	
+	text-decoration: none;
+	color:#888;
+	font-weight: lighter;
+	font-size: 14px;
+}
+#headernav li{
+	display:inline;
+	padding-left: 24px;
+}
+.line{
+	height: 1px;
+	margin-top: 12px;
+	background-color: #eee;
+}
+
+/*内容开始*/
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+#resultlogo{
+	width: 480px;
+}
+#resultline{
+	display: inline;
+}
+#imgchoose{
+	width: 120px;
+	height: 30px;
+	margin-left:360px;
+	margin-top: 24px;
+	border-radius: 30px;
+	border: none;
+	background-color: #359c7e;
+	position: relative;
+	color: #fff;
+	font-size: 0.6em;
+	cursor: pointer;
+	-webkit-transition-property:background-color,color;
+	-webkit-transition-duration:0.4s;
+	-webkit-transition-timing-function:ease-out;
+	-moz-transition-property:background-color,color;
+	-moz-transition-duration:0.4s;
+	-moz-transition-timing-function:ease-out;
+}
+#imgchoose:hover{
+	background-color: #4bc29e;
+}
+.row{
+	margin-top: 48px;
+	padding-left: 120px;
+}
+#imglist{
+	width: 120px;
+	height: 120px;
+}
+#preview{
+	position:absolute;
+	background:#fff;
+	padding:5px;
+	display:none;
+	color:#fff;
+}
+#line{
+	color: #359c7e;
+	height: 1px;
+	margin-top: 6px;
+	background-color: #ccc;
+}
+#linesmall{
+	width: 100%;
+}
+#resulttext{
+	margin-top: 50px;
+}
+.diseaseName{
+	font-size: 18px;
+	font-weight: 10px;
+	background-color: #359c7e;
+	color: #fff;
+}
+.circliful { 
+    position: relative;  
+} 
+.circle-text, .circle-info, .circle-text-half, .circle-info-half { 
+    width: 100%; 
+    position: absolute; 
+    text-align: center; 
+    display: inline-block; 
+} 
+.circle-info, .circle-info-half { 
+    color: #999; 
+} 
+.circliful .fa { 
+    margin: -10px 3px 0 3px; 
+    position: relative; 
+    bottom: 4px; 
+} 
+
+.resultblock{
+	width: 180px;
+	height: 370px;
+	margin-top: 48px;
+	margin-left: 48px;
+	background-color: #eee;
+	float: left;
+}
+.resultblock>h4{
+	color: #359c7e;
+	font-size: 16px;
+	text-align: center;
+}
+.resultblock>span{
+	margin-left: 12px;
+	color: #666;
+}
+.resultblock>hr{
+	border:0;
+	background-color:#fff;
+	height:1px;
+}
+.resultimg{
+	width: 180px;
+}
+.resultinfor{
+	padding-left: 12px;
+	padding-right: 12px;
+	font-size: 12px;
+	color: #666;
+}
+#resultdata{
+	float: right;
+	margin-right: 48px;
+}
+#loadmore{
+	width: 180px;
+	padding-top: 48px;
+	margin: 0 auto;
+	color: #666;
+	clear:both;
+	display: block;
+	text-align: center;
+}
+.simtable td{
+	width: 80px;
+	padding-left: 12px;
+}
+.simspan{
+	width: 80px;
+}
+/*页尾开始*/
+footer{
+	max-width:1500px;
+ 	width:expression_r(document.body.clientWidth > 1500? "1500px": "auto" );
+ 	margin: 0 auto;
+	margin-top: 36px;
+	padding-bottom: 24px;
+	background-color: #359c7e;
+	color: #fff;
+}
+footer h4{
+	padding-top: 12px;
+	text-align: center;
+}
+footer ul{
+	width: 270px;
+	margin:6px auto;
+	margin-bottom: 18px;
+}
+footer li{
+	display: inline;
+	margin-left: 12px;
+}
+footer a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: lighter;
+}
+footer a:hover{
+	color:#f8d467;
+}
+footer #small{
+	text-align: center;
+	font-size: 12px;
+	color: #ccc;
+	-webkit-transition-property:background-color,color;
+	-webkit-transition-duration:1s;
+	-webkit-transition-timing-function:ease-out;
+	-moz-transition-property:background-color,color;
+	-moz-transition-duration:1s;
+	-moz-transition-timing-function:ease-out;
+}
+footer #small:hover{
+	color:#fff;
+}

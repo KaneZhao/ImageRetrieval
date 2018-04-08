@@ -1,0 +1,10 @@
+com.hbd.retrieval.common.domain
+com.hbd.retrieval.common.servlet
+com.hbd.retrieval.common.util
+com.hbd.retrieval.data.domain
+com.hbd.retrieval.data.manager
+com.hbd.retrieval.image.util
+com.hbd.retrieval.index.manager
+com.hbd.retrieval.search.domain
+com.hbd.retrieval.search.manager
+com.hbd.retrieval.web.servlet

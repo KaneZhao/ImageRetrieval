@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ 
+  	<context-param>
+  		<param-name>similarImgNum</param-name>
+  		<param-value>5</param-value>
+  	</context-param>
+  	
+  	<context-param>
+  		<param-name>randomImgNum</param-name>
+  		<param-value>12</param-value>
+  	</context-param>
+  	
+  	<servlet>
+		<servlet-name>initServlet</servlet-name>
+		<servlet-class>com.hbd.retrieval.common.servlet.InitServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>initServlet</servlet-name>
+		<url-pattern>/servlet/initServlet</url-pattern>
+	</servlet-mapping>
+	
+  	<servlet>
+		<servlet-name>homeServlet</servlet-name>
+		<servlet-class>com.hbd.retrieval.web.servlet.ShowHomeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>homeServlet</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>indexServlet</servlet-name>
+		<servlet-class>com.hbd.retrieval.web.servlet.IndexServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>indexServlet</servlet-name>
+		<url-pattern>/servlet/indexServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>searchServlet</servlet-name>
+		<servlet-class>com.hbd.retrieval.web.servlet.SearchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>searchServlet</servlet-name>
+		<url-pattern>/servlet/searchServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>detaiServlet</servlet-name>
+		<servlet-class>com.hbd.retrieval.web.servlet.ShowDetailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>detaiServlet</servlet-name>
+		<url-pattern>/servlet/detailServlet</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
